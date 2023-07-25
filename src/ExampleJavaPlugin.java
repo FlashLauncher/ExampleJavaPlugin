@@ -8,7 +8,7 @@ public class ExampleJavaPlugin extends Plugin {
         super(context);
         addAccount(new IAccount() {
             @Override
-            public String getNickname() {
+            public String getName() {
                 return "ExampleAccount";
             }
         });
